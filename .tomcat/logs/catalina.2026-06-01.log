@@ -36,3 +36,8 @@
 01-Jun-2026 14:08:44.719 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\FPT\IdeaProjects\jav101-lab4-anhtuan328\.tomcat\conf\Catalina\localhost\jav101-lab4-anhtuan328.xml] has finished in [3,503] ms
 01-Jun-2026 14:08:44.731 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 01-Jun-2026 14:08:44.789 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3747] milliseconds
+01-Jun-2026 14:11:26.063 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+01-Jun-2026 14:11:26.082 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+01-Jun-2026 14:11:26.222 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [jav101-lab4-anhtuan328] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+01-Jun-2026 14:11:26.249 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+01-Jun-2026 14:11:26.271 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
